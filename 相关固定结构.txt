@@ -1,0 +1,27 @@
+<!--幻灯新闻-->
+<div id="owl-demo" class="owl-carousel">
+        <a class="item"><img src="images/b1.jpg" alt=""></a>
+        <a class="item"><img src="images/b2.jpg" alt=""></a>
+        <a class="item"><img src="images/b3.jpg" alt=""></a>
+</div>
+
+
+/*幻灯图片*/
+#owl-demo { width: 100%; margin:0 auto;}
+#owl-demo .item {display: block;}
+#owl-demo img {display: block; width: 100%;}
+
+
+
+<!--以下代码放在页面底部-->
+
+<script>
+      /*滑屏控件*/
+	$('#owl-demo').owlCarousel({
+        singleItem: true,
+		autoPlay:true,
+    });
+</script>
+
+
+----------------------------------------------------------------------------
